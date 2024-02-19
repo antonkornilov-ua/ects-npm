@@ -19,6 +19,7 @@ class ECTS {
                 return grade;
             }
         }
+        return 'F';
     }
 }
 
