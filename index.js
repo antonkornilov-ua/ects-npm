@@ -15,7 +15,7 @@ class ECTS {
     ectsFromScore() {
         for (const grade in ECTS.conversionTable) {
             const [min, max] = ECTS.conversionTable[grade];
-            if (this.score >= min && this.score <= max) {
+            if (this.score > min && this.score < max) {
                 return grade;
             }
         }
