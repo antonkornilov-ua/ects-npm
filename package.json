@@ -1,0 +1,11 @@
+{
+  "name": "ects-kornilov-anton",
+  "version": "1.0.0",
+  "description": "nodeJs 18th module solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Kornilov",
+  "license": "ISC"
+}
